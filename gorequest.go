@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/astrolink/http2curl"
 	"github.com/pkg/errors"
 	"golang.org/x/net/publicsuffix"
-	"moul.io/http2curl"
 )
 
 type Request *http.Request
